@@ -10,4 +10,6 @@ app.post('/',(req,res) => {
 )};
 
 //监听3000端口
-app.
+app.listen(3000,() => {
+  console.log('服务器已启动...');
+)};
